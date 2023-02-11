@@ -29,6 +29,10 @@
         	li $t2, 0 			#coloca 0 no t2
         	
         	jal printNums 			#chama a função para imprimir o array ordenado
+        	
+        	#termina programa
+        	li $v0, 10
+        	syscall
 	
 	
 	leituraNumeros:
@@ -80,7 +84,7 @@
         	
         	addi $t2, $t2, 4 			#iterador+4
         	
-        	j bubbleSort                          #loop volta para bubbleSort até todo o vetor ser percorrido
+        	j bubbleSort                          #looop volta para bubbleSort até todo o vetor ser percorrido
     
     #Função para pular a troca dos indices     
     pulaTroca:
@@ -88,7 +92,7 @@
         
         j bubbleSort                           	#volta para a função bubbleSort
     
-    #loop externo do bubbleSort
+    #looop externo do bubbleSort
     loopExterno:
         li $t2, 0                         		#t2 é 0
         addi $t1, $t1, 1                  		#t1 + 1
@@ -109,6 +113,6 @@
         li $v0, 4                         
         syscall
         
-	b printNums                       		#retorna loop
+	b printNums                       		#retorna looop
 		
 		
