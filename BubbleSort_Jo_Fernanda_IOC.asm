@@ -5,7 +5,7 @@
 	
 	#variáveis para realizarmos a impressão
 	
-	ola: .asciiz "Olá, entre com 6 números para adicioná-los em um vetor e depois vamos colocalos via bubble sort\n\n"
+	ola: .asciiz "Olá, entre com 6 números para adicioná-los em um vetor e depois vamos ordenar os elementos via bubble sort\n\n"
 	entraNum: .asciiz "Entre com um número: "
 	arrayOrdenado: .asciiz "\nAqui está o array ordenado: "
 	space: .byte ' ' #Para colocar o espaço entre os números na impressão final
