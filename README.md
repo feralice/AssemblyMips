@@ -1,2 +1,2 @@
 # AssemblyMips
-Códigos em assembly mips para treino próprio 
+Códigos em assembly mips feitos durante a disciplina de organização de computadores
